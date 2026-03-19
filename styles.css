@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 20px;
     background-color: black;
-    color: black ;
+    color: black;
 }
 
 nav {
@@ -22,7 +22,7 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
+    color: white;
 }
 
 h1 {color: black; border-bottom: 2px; }
