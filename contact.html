@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="vacation.html">Dream Vacation</a></li>
+    </ul>
+</nav>
+
+
+<h1>Contact & Survey</h1>
+
+<form>
+
+
+    <!-- Full Name -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+
+    <!-- Email -->
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+
+    <!-- Favorite Section -->
+    <p>Which section did you like the most?</p>
+    <input type="radio" name="favorite" value="home"> Home<br>
+    <input type="radio" name="favorite" value="favorites"> Favorites<br>
+    <input type="radio" name="favorite" value="vacation"> Dream Vacation<br><br>
+
+
+    <!-- Rating -->
+    <label for="rating">Rate this website (1-5):</label><br>
+    <select id="rating" name="rating">
+        <option value="1">1 - Poor</option>
+        <option value="2">2</option>
+        <option value="3">3 - Average</option>
+        <option value="4">4</option>
+        <option value="5">5 - Excellent</option>
+    </select><br><br>
+
+
+    <!-- Comments -->
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your thoughts here..."></textarea><br><br>
+
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+
+
+</form>
+
+
+</body>
+</html>
