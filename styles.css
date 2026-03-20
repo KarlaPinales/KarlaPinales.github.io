@@ -30,6 +30,8 @@ h1 {color: white; border-bottom: 2px; }
 form {
     background: oklab(42.973% 0.0076 0.00234);
     padding: 15px;
+    margin: 0 auto;
+    max-width: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
