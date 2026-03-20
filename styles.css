@@ -41,6 +41,10 @@ input, textarea, select {
     margin: 10px 0;
     width: 100%;
     padding: 8px;
+    background:  oklab(36.888% 0.00658 0.00203);
+    color: white;
+    border: none;
+    border-radius: 6px
 }
 img { max-width: 100%; border-radius: 10px; }
 .video-container { margin-top: 20px; }  
