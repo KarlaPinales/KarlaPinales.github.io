@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact & Survey</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -10,58 +11,45 @@
 
 <nav>
     <ul>
-        <a href="index.html">Home</a>
-        <a href="favorites.html">Favorites</a>
-        <a href="contact.html">Contact</a>
-        <a href="vacation.html">Dream Vacation</a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="vacation.html">Dream Vacation</a></li>
     </ul>
 </nav>
 
-
 <h1>Contact & Survey</h1>
 
-<form>
+<div class="box">
+    <form>
 
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    
-    <label for="name">Full Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
 
+        <p>Which section did you like the most?</p>
+        <input type="radio" name="favorite" value="home"> Home<br>
+        <input type="radio" name="favorite" value="favorites"> Favorites<br>
+        <input type="radio" name="favorite" value="vacation"> Dream Vacation<br>
 
-    
-    <label for="email">Email Address:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+        <label for="rating">Rate this website (1-5):</label>
+        <select id="rating" name="rating">
+            <option value="1">1 - Poor</option>
+            <option value="2">2</option>
+            <option value="3">3 - Average</option>
+            <option value="4">4</option>
+            <option value="5">5 - Excellent</option>
+        </select>
 
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Write your thoughts here..."></textarea>
 
-    
-    <p>Which section did you like the most?</p>
-    <input type="radio" name="favorite" value="home"> Home<br>
-    <input type="radio" name="favorite" value="favorites"> Favorites<br>
-    <input type="radio" name="favorite" value="vacation"> Dream Vacation<br><br>
+        <input type="submit" value="Submit">
 
-
-    
-    <label for="rating">Rate this website (1-5):</label><br>
-    <select id="rating" name="rating">
-        <option value="1">1 - Poor</option>
-        <option value="2">2</option>
-        <option value="3">3 - Average</option>
-        <option value="4">4</option>
-        <option value="5">5 - Excellent</option>
-    </select><br><br>
-
-
-    
-    <label for="comments">Comments:</label><br>
-    <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your thoughts here..."></textarea><br><br>
-
-
-    
-    <input type="submit" value="Submit">
-
-
-</form>
-
+    </form>
+</div>
 
 </body>
 </html>
