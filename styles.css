@@ -7,7 +7,7 @@ body {
     color: pink;
 }
 
-/* Navigation */
+
 nav {
     background: grey;
     padding: 10px;
@@ -36,14 +36,14 @@ nav a:hover {
     color: pink;
 }
 
-/* Heading */
+
 h1 {
     color: white;
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* BOXES (MAIN FEATURE) */
+
 .box {
     max-width: 700px;
     margin: 20px auto;
@@ -53,20 +53,20 @@ h1 {
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* Section titles inside boxes */
+
 .box h2 {
     margin-top: 0;
     border-bottom: 2px solid pink;
     padding-bottom: 5px;
 }
 
-/* Optional hover effect */
+
 .box:hover {
     transform: translateY(-5px);
     transition: 0.3s;
 }
 
-/* Form styling (your original) */
+
 form {
     background: white;
     max-width: 400px;
